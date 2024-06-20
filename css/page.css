@@ -215,7 +215,7 @@
     .aboutContainer > div:last-of-type{
         position: absolute; display: flex; align-items: center; justify-content: center; 
         top: 53.24vh; left: 35.67vw; z-index: 6; width: 16.35vw; height: 16.35vw;
-        animation: opar 1s ease-in forwards; animation-delay: 1.5s; opacity: 0;
+        animation: opar 1s ease-in forwards; animation-delay: 1.3s; opacity: 0;
     }
     .aboutContainer > div:last-of-type::before{
         content: ''; position: absolute; width: 15.35vw; height: 15.35vw;
@@ -229,7 +229,7 @@
     }
     .aboutContainer > div:last-of-type a{
         color: #122433; display: block; text-align: center;
-        z-index: 6; line-height: 1.45em;
+        z-index: 6; line-height: 1.45em; transition: color 0.2s linear;
         border-bottom: 1px solid #122433;
     }
     .aboutContainer > div:last-of-type a:hover{
@@ -239,7 +239,16 @@
     /* *about */
 
     .publContainer ol{
-        height: 100vh; position: relative;
+        height: 100vh; position: relative; opacity: 0;
+        animation: 1s pubOpar ease-in forwards;
+    }
+    @keyframes pubOpar{
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
     }
     .publContainer ol > li{
         display: flex; height: 100vh; position: absolute; width: 100%; opacity: 0;
@@ -274,6 +283,7 @@
         color: #4d2111; position: absolute; right: 0; top: 50%;
         transform: translateY(-50%); padding-right: 1.56vw;
         background: url('../images/btn_arrowR.png') right center / 1.3vw no-repeat;
+        transition: color 0.2s linear;
     }
     .publContainer ol > li > div:last-of-type h3 a:hover{
         color: #fff; background-image: url("../images/btn_arrowRW.png");
@@ -286,7 +296,7 @@
     }
     .publContainer ol > li > div:last-of-type ul li{
         float: left; background-color: #b34c27; line-height: 2.6vw; padding: 0 0.78vw;
-        border-radius: 1.3vw;
+        border-radius: 1.3vw; transition: background-color 0.2s linear;
     }
     .publContainer ol > li > div:last-of-type ul li:hover{
         background-color: #80371c; transition: background-color 0.3s linear;
@@ -397,7 +407,7 @@
         text-align: left;
     }
     .conContainer div ul li{
-        line-height: 4.7vh; padding-left: 2.82vw; 
+        line-height: 4.7vh; padding-left: 2.82vw;  
         background-repeat: no-repeat; background-size: contain; background-position: left center;
     }
     .conContainer div ul li:first-of-type{
@@ -422,7 +432,7 @@
         margin-bottom: 2.7vh;
     }
     .conContainer div ul li a{
-        color: #4d4744; display: block;
+        color: #4d4744; display: block; transition: color 0.1s linear;
     }
     .conContainer div ul li a:hover{
         color: #fff;
