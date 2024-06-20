@@ -58,7 +58,7 @@
     }
     .mainContainer > div div:first-child h3{
         color: #4d3c1d; max-width: 29.16vw; position: relative;
-        line-height: 0.97em; margin-bottom: 3.7vh;  animation-delay: 1.5s;
+        line-height: 0.97em; margin-bottom: 3.7vh;  animation-delay: 1s;
     }
     .mainContainer > div div:first-child h3 span{
         display: block; 
@@ -76,10 +76,10 @@
         
     }
     .mainContainer > div div:first-child p:first-of-type{
-        margin-bottom: 1.04vw; animation-delay: 2s;
+        margin-bottom: 1.04vw; animation-delay: 1.5s;
     }
     .mainContainer > div div:first-child p:last-of-type{
-        color: rgba(77, 60, 29, 0.3); animation-delay: 2.2s;
+        color: rgba(77, 60, 29, 0.3); animation-delay: 2s;
     }
     .mainContainer > div div:last-child img{
         width: 40.88vw;
