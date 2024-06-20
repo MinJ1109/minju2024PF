@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M0,0h24v24H0V0Z"/>
+  <path class="cls-2" d="M17,1H7c-1.1,0-2,.9-2,2v18c0,1.1.9,2,2,2h10c1.1,0,2-.9,2-2V3c0-1.1-.9-2-2-2ZM17,19H7V5h10v14Z"/>
+</svg>
