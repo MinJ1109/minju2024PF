@@ -41,9 +41,24 @@
         width: 32vw; height: 32vw; left: 13vw; bottom: 7.4vh;
         transform: rotate(100deg); animation-duration: 1s; animation-timing-function: ease-in;
     }
+    .mainContainer > div div:first-child p,
+    .mainContainer > div div:first-child h3{
+        animation: 2s lineUp ease-out forwards; opacity: 0;
+    }
+    @keyframes lineUp{
+        0%{
+            opacity: 0; transform: translateY(80%);
+        }20%{
+            opacity: 0;
+        }50%{
+            opacity: 1; transform: translateY(0%);
+        }100%{
+            opacity: 1; transform: translateY(0%);
+        }
+    }
     .mainContainer > div div:first-child h3{
         color: #4d3c1d; max-width: 29.16vw; position: relative;
-        line-height: 0.97em; margin-bottom: 3.7vh;
+        line-height: 0.97em; margin-bottom: 3.7vh;  animation-delay: 1.5s;
     }
     .mainContainer > div div:first-child h3 span{
         display: block; 
@@ -60,21 +75,11 @@
         line-height: 1.33em;
         
     }
-    .mainContainer > div div:first-child p,
-    .mainContainer > div div:first-child h3{
-        animation: 2s lineUp ease-out forwards; animation-delay: 1s;
-        opacity: 0;
+    .mainContainer > div div:first-child p:first-of-type{
+        margin-bottom: 1.04vw; animation-delay: 2s;
     }
-    @keyframes lineUp{
-        0%{
-            opacity: 0; transform: translateY(80%);
-        }20%{
-            opacity: 0;
-        }50%{
-            opacity: 1; transform: translateY(0%);
-        }100%{
-            opacity: 1; transform: translateY(0%);
-        }
+    .mainContainer > div div:first-child p:last-of-type{
+        color: rgba(77, 60, 29, 0.3); animation-delay: 2.2  s;
     }
     .mainContainer > div div:last-child img{
         width: 40.88vw;
@@ -171,12 +176,8 @@
         top: 76.38vh;
     }
     .aboutContainer > div:first-of-type > div ul li{
-        line-height: 9.25vh; color: transparent; padding-left: 3.12vw; background-position: center left;
-        background-repeat: no-repeat; background-size: 2.6vw; 
-        transition: color 0.3s ease; text-indent: -9999px;
-    }
-    .aboutContainer > div:first-of-type > div ul li:hover{
-        color: #fff; text-indent: 0;
+        line-height: 9.25vh; color: transparent; width: 2.6vw; background-position: center left;
+        background-repeat: no-repeat; background-size: contain; text-indent: -9999px;  color: #fff; 
     }
     .aboutContainer > div:first-of-type > div ul li:not(:first-of-type){
         margin-left: 2.08vw;
@@ -205,8 +206,11 @@
     .aboutContainer > div:first-of-type > div ul:last-of-type li:nth-child(3){
         background-image: url('../images/ico_xd.png');
     }
-    .aboutContainer > div:first-of-type > div ul:last-of-type li:last-child{
+    .aboutContainer > div:first-of-type > div ul:last-of-type li:nth-child(3){
         background-image: url('../images/ico_indi.png');
+    }
+    .aboutContainer > div:first-of-type > div ul:last-of-type li:nth-child(4){
+        background-image: url('../images/ico_figma.png');
     }
     .aboutContainer > div:last-of-type{
         position: absolute; display: flex; align-items: center; justify-content: center; 

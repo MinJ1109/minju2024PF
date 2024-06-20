@@ -1,5 +1,6 @@
 $(document).ready(function(){
     pubSlide();
+    // info();
 });
 
 function pubSlide(){
