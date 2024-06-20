@@ -79,7 +79,7 @@
         margin-bottom: 1.04vw; animation-delay: 2s;
     }
     .mainContainer > div div:first-child p:last-of-type{
-        color: rgba(77, 60, 29, 0.3); animation-delay: 2.2  s;
+        color: rgba(77, 60, 29, 0.3); animation-delay: 2.2s;
     }
     .mainContainer > div div:last-child img{
         width: 40.88vw;
