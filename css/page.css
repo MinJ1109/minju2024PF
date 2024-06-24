@@ -598,6 +598,9 @@
     
     /* *about */
 
+    .publContainer ol > li > div {
+        background-color: #1c364d;
+    }
     .publContainer h2{
         z-index: -2;
     }
