@@ -294,18 +294,18 @@
 
     .conContainer{
         position: relative; overflow: hidden;
-        background: linear-gradient(to bottom, #f2e1d8 87vh, #807671 13vh);
+        background: linear-gradient(to bottom, #f2e1d8 93vh, #807671 7vh);
     }
     .conContainer::before{
         content: ''; width: 100%; height: 16.38vh;
-        background-image: url('../images/wave_01.svg'); background-size: 100vw;
+        background-image: url('../images/wave_01.svg'); background-size: 100vw 16.38vh;
         position: absolute; bottom: 0; left: 0;
         animation: waveInfi 5s linear infinite;
         background-repeat: repeat-x;
     }
     .conContainer::after{
         content: ''; width: 100%; height: 16.38vh;
-        background-image: url('../images/wave_02.svg'); background-size: 100vw;
+        background-image: url('../images/wave_02.svg'); background-size: 100vw 16.38vh;
         position: absolute; bottom: 0; left: 0;
         animation: waveInfi2 8s linear infinite;
         background-repeat: repeat-x;
@@ -715,18 +715,18 @@
 
     .conContainer{
         position: relative; overflow: hidden;
-        background: linear-gradient(to bottom, #f2e1d8 89vh, #807671 11vh);
+        background: linear-gradient(to bottom, #f2e1d8 93vh, #807671 7vh);
     }
     .conContainer::before{
         content: ''; width: 100%; height: 16.38vh;
-        background-image: url('../images/wave_01.svg'); background-size: 100vw;
+        background-image: url('../images/wave_01.svg'); background-size: 100vw 16.38vh;
         position: absolute; bottom: 0; left: 0;
         animation: waveInfi 5s linear infinite;
         background-repeat: repeat-x;
     }
     .conContainer::after{
         content: ''; width: 100%; height: 16.38vh;
-        background-image: url('../images/wave_02.svg'); background-size: 100vw;
+        background-image: url('../images/wave_02.svg'); background-size: 100vw 16.38vh;
         position: absolute; bottom: 0; left: 0;
         animation: waveInfi2 8s linear infinite;
         background-repeat: repeat-x;
