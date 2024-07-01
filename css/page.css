@@ -1103,6 +1103,9 @@
     .publContainer ol > li > div:last-of-type p{
         color: #fff; line-height: 1.66vw;
     }
+    .publContainer ol > li > div:last-of-type span{
+        margin: 0 0.26vw;
+    }
     .publContainer ol > li > div:last-of-type > p:not(:last-of-type){
         margin-bottom: 1.3vw;
     }
